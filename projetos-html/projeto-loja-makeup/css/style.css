@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(233, 64, 154);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 100;
+}
+
+main{
+display: flex;
+flex-direction: row;
+margin-top: 05px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 09px;
+
+}
+
+span{
+    color: rgb(9, 194, 226);
+}
+
+p{
+    font-size:30px ;
+    line-height:40px ;
+    max-width:60px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+button{
+    height: 45px;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top:10px ;
+    background-color:rgb(9, 194, 226) ;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    cursor:poiter;
+    box-shadow: 4px 4px 0px #023b55;
+    transition: transform 200ms ease-in-out;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+input{
+    margin-top: 10px;
+    height: 30px;
+    padding:10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color:rgb(9, 194, 226)
+
+}
+

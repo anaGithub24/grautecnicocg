@@ -1,0 +1,19 @@
+LEIAME
+
+PRE-REQUISITOS:
+
+- DOTNET SDK devidamente instalado 
+- Cli 'csc' do compilador C# sendo reconhecido pelo terminal 
+
+
+1) Acessar diretório do projeto
+
+cd C:\Users\Eder\Desktop\ANA CARLA\GRAU TECNICO\arquitetura de software\exercicio\csharp
+
+2) Compilar projeto localmente gerando binário .exe no diretório .\projeto1\bin
+
+csc -out:projeto1\bin\Projeto1.exe -recurse:projeto1\*.cs
+
+3) Executando binário
+
+.\projeto1\bin\Projeto1.exe
